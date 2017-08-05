@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Cagefy_my_images",
+  "description": "Replace all images on Nicolas Cage photos",
+  "version": "1.0",
+  "browser_action": {
+      "default_icon": "cage.png",
+      "default_title": "Replace all images on Nicolas Cage photos"
+  },
+  "permissions": ["http://*", "https://*"],
+  "background": {
+      "scripts": [ "background.js", "cagefy.js" ]
+   },
+	"icons": { "16": "cage.png",
+               "48": "cage.png",
+               "128": "cage.png" }
+}
