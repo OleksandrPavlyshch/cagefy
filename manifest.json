@@ -7,7 +7,7 @@
       "default_icon": "cage.png",
       "default_title": "Replace all images on Nicolas Cage photos"
   },
-  "permissions": ["http://*", "https://*"],
+  "permissions": ["activeTab"],
   "background": {
       "scripts": [ "background.js", "cagefy.js" ]
    },
